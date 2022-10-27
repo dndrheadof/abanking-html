@@ -1,0 +1,45 @@
+.featured {
+  &__header {
+    margin: 30px 0 30px 0;
+  }
+
+  &__container {
+    margin: 0 20% 0 20%;
+  }
+
+  &__link {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  &__item {
+    margin: 20px 0 15px 0;
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__tags-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 35px;
+  }
+
+  &__date {
+    background-color: #142850;
+    border: 5px solid #142850;
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 0 5px 0 5px;
+    color: white;
+    margin: 0;
+  }
+
+  &__tag {
+    margin-top: 3px;
+    color: #8695A4;
+    font-size: 20px;
+  }
+}

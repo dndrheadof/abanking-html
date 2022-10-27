@@ -1,0 +1,48 @@
+@use "./nav";
+@use "./description";
+@use "./posts";
+@use "./featured";
+@use "./footer";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Heebo', sans-serif;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  border: 0px;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+h6 {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+hr {
+  height: 1px;
+  background-color: #E0E0E0;
+  border: none;
+}
